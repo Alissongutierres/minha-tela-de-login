@@ -7,7 +7,79 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../imagens/pexels-jesus-setien-otero-2151852775-31949672.jpg");
+    background-size: cover;
+    background-position: center top;
+}
 
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+div.caixa-login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -36%);
+    width: 280px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+div.caixa-texto {
+    display: none;
+}
+
+div.formulario {
+    display: block;
+    padding: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+   
+   
+    
+}
+
+div.login {
+    display: block;
+    width: 100%;
+    min-height: 50px;
+
+}
+
+ label {
+    display: block;
+    color: white;
+    font-size: 1.1em;
+    margin: 10px 0;
+ 
+   
+    
+}
+
+ input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    padding: 16px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+   
+    
+}
+
+::placeholder {
+    color: green;
+    font-size: 0.9em;
+}
 
 
 
