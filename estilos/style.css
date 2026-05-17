@@ -26,7 +26,7 @@ div.caixa-login {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -36%);
-    width: 280px;
+    width: 320px;
     height: 500px;
     overflow: hidden;
     border-radius: 10px;
@@ -49,8 +49,9 @@ div.formulario {
 
 div.login {
     display: block;
-    width: 100%;
+    width: 90%;
     min-height: 50px;
+    margin: 0 auto;
 
 }
 
@@ -72,14 +73,59 @@ div.login {
     border-radius: 5px;
     margin-bottom: 10px;
     font-size: 0.9em;
-   
-    
+      
 }
 
 ::placeholder {
     color: green;
     font-size: 0.9em;
 }
+
+.senha{
+  font-size: 0.9em;
+  text-decoration: none;
+  color: white;
+  float: right;
+  margin-bottom: 12px;
+}
+
+.senha:hover {
+    text-decoration: underline;
+}
+
+input[ type="submit" ]{
+   padding: 18px;
+   border-radius: 10px; 
+   border: none;
+   line-height: 0px;
+   background-color: rgba(64, 124, 245, 0.974);
+   color: white;
+   cursor: pointer;
+}
+
+input[ type="submit" ]:hover {
+    background-color: green;
+    border-style: outset;
+}
+
+div.linhas {
+    display: flex;
+}
+
+div.linhas > span {
+    
+    border-bottom: 2px solid white;
+    width: 30%;
+    height: 11px;
+    margin: 0 auto;
+
+}
+
+div.linhas >p {
+    color: white;
+}
+
+
 
 
 
